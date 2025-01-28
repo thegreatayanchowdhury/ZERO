@@ -7,7 +7,7 @@ import os
 load_dotenv()
 
 # Set up the page configuration and styling
-st.set_page_config(page_title="ZERO UI", layout="wide")
+st.set_page_config(page_title="ZERO", layout="wide")
 
 def load_css():
     with open("style.css", "r") as f:
