@@ -8,7 +8,7 @@ load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
 
 # Initialize the Gemini model
-chat_model = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=api_key)
+chat_model = ChatGoogleGenerativeAI(model="gemini-2.0-flash", google_api_key=api_key)
 
 # Function to generate chatbot response
 def chatbot_response(prompt):
